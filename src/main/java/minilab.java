@@ -3,8 +3,10 @@ public class minilab {
         if (5>2) {
             System.out.println(true);
         }
-        else {
+        else if (5 <2){
             System.out.println(false);
+        } else {
+            System.out.println("Unknown");
         }
 
         int number = 24;
